@@ -1,0 +1,31 @@
+.container{
+  max-width: 900px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin: 0 auto;
+}
+
+
+main{
+  min-height: calc(100vh - 85px - 22px);
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+main a{
+  color: rgb(16, 33, 27)
+}
+
+main a:hover{
+  text-decoration: underline;
+}
+
+.link:hover{
+  text-decoration: underline;
+  color: aquamarine
+}
+
+.active{
+  cursor: default;
+  color: chocolate;
+}
